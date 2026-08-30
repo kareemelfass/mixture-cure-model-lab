@@ -2,6 +2,10 @@
 
 An interactive HEOR tutorial on mixture cure models for survival extrapolation and health technology assessment.
 
+## Live interactive tutorial
+
+**[Open the Mixture Cure Model Lab](https://kareemelfass.github.io/mixture-cure-model-lab/)**
+
 The lab is designed for **learning by seeing and doing**: change cure-model parameters, uncured survival assumptions, and expected mortality, then observe how those choices alter the extrapolated survival curve.
 
 ## Topics covered
