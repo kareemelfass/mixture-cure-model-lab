@@ -6,19 +6,25 @@ An interactive HEOR tutorial on mixture cure models for survival extrapolation a
 
 **[Open the Mixture Cure Model Lab](https://kareemelfass.github.io/mixture-cure-model-lab/)**
 
-The lab is designed for **learning by seeing and doing**: change cure-model parameters, uncured survival assumptions, and expected mortality, then observe how those choices alter the extrapolated survival curve.
+The tutorial is designed for **learning by seeing and doing**: change the cure fraction, the latency curve, the certainty level and the background death rate, and watch the survival curves, cure probabilities and cure points update.
 
 ## Topics covered
 
-- Theoretical basis of mixture cure modelling
-- Differences from standard parametric, flexible parametric, mixture, and non-mixture cure models
-- NICE DSU terminology and concepts
-- Published HEOR and HTA examples
-- Logistic modelling of cure probability
-- Weibull survival for the uncured population
-- Expected mortality for the cured population
-- Interactive construction of the mixture survival curve
-- HTA guidance and methodological references
+- When to use a mixture cure model: a decision process, not a checklist
+- How the cure fraction is estimated: plateau formula, maximum likelihood, profile-likelihood intervals, informed (outside-evidence) approach, covariates
+- How the model defines a patient as cured: latent label, Bayes' rule, EM algorithm
+- How a cure point is derived (the model has none): probability, hazard and clinical rules, with an interactive calculator
+- Whether the cure fraction accounts for general population survival: background mortality and relative survival, with an interactive chart
+- Data needed, R and Python code with line-by-line explanations
+- Worked calculations, including the cost of a hard single cure point and a simulation showing how follow-up length changes the estimate
+- Published examples (including NICE TA975), pitfalls, and a reporting checklist for HTA submissions
+- Glossary and sources
+
+The numerical examples are illustrative or simulated for teaching. The R code was not executed when the tutorial was written, so check package argument names on your machine.
+
+## Earlier version
+
+The previous version of this lab (Lab 01, with the treatment-group cure-model calculator) is kept at [/original/](https://kareemelfass.github.io/mixture-cure-model-lab/original/).
 
 ## Part of HEOR Interactive Labs
 
